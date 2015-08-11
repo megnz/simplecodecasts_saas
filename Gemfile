@@ -8,8 +8,6 @@ gem 'sqlite3', group: [:development, :test]
 # Use postgresql as the database for production
 # Use SCSS for stylesheets
 
-# Use bootstrap library for styles
-gem 'bootstrap-sass', '3.3.5'
 
 group :production do
     gem 'pg'
@@ -17,6 +15,10 @@ group :production do
 end
 
 gem 'sass-rails', '4.0.3'
+# Use bootstrap library for styles
+gem 'bootstrap-sass', '3.3.5'
+# Use fontawesome library for icons
+gem 'font-awesome-sass', '4.3.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
